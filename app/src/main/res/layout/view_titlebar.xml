@@ -6,32 +6,37 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/top_left1_tv"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:gravity="center_vertical"
-            android:includeFontPadding="false"
-            android:minWidth="50dp"
-            android:paddingLeft="15dp"
-            android:paddingRight="14dp"
-            android:textColor="@android:color/black"
-            android:textSize="14dp"
-            android:visibility="gone" />
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp">
 
-        <TextView
-            android:id="@+id/top_left2_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_toRightOf="@id/top_left1_tv"
-            android:gravity="center_vertical"
-            android:includeFontPadding="false"
-            android:minWidth="50dp"
-            android:paddingLeft="14dp"
-            android:paddingRight="14dp"
-            android:textColor="@android:color/black"
-            android:textSize="14dp"
-            android:visibility="gone" />
+            <TextView
+                android:id="@+id/top_left1_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:minWidth="50dp"
+                android:textColor="@android:color/black"
+                android:textSize="14dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/top_left2_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:minWidth="50dp"
+                android:textColor="@android:color/black"
+                android:textSize="14dp"
+                android:visibility="gone" />
+        </LinearLayout>
 
         <RelativeLayout
             android:id="@+id/top_title_rl"
@@ -61,32 +66,37 @@
                 android:textSize="16dp" />
         </RelativeLayout>
 
-        <TextView
-            android:id="@+id/top_right1_tv"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:gravity="center_vertical"
-            android:includeFontPadding="false"
-            android:minWidth="50dp"
-            android:paddingLeft="14dp"
-            android:paddingRight="14dp"
-            android:textColor="@android:color/black"
-            android:textSize="14dp"
-            android:visibility="gone" />
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:paddingEnd="10dp"
+            android:paddingRight="10dp">
 
-        <TextView
-            android:id="@+id/top_right2_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_toRightOf="@id/top_left1_tv"
-            android:gravity="center_vertical"
-            android:includeFontPadding="false"
-            android:minWidth="50dp"
-            android:paddingLeft="14dp"
-            android:paddingRight="15dp"
-            android:textColor="@android:color/black"
-            android:textSize="14dp"
-            android:visibility="gone" />
+            <TextView
+                android:id="@+id/top_right1_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:minWidth="50dp"
+                android:textColor="@android:color/black"
+                android:textSize="14dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/top_right2_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:minWidth="50dp"
+                android:textColor="@android:color/black"
+                android:textSize="14dp"
+                android:visibility="gone" />
+        </LinearLayout>
 
         <View
             android:id="@+id/view_bottom_line"
